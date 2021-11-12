@@ -19,7 +19,7 @@ function Opinion() {
             </div>
             <div className={styles.box} >
                 {/* <div className={styles.recipes}> */}
-                <h5 className={styles.name}  > "Excelente servicio. Me atendieron súper bien, realmente estoy muy contento con el producto, llego en tiempo y forma y cumplieron con todo lo que les pedí"</h5>
+                <h5 className={styles.name}  > "Excelente servicio. Me atendieron súper bien, realmente estoy muy contenta con el producto, llego en tiempo y forma y cumplieron con todo lo que les pedí"</h5>
                 <div className={styles.imagen} >
                 </div>
                 <h1  className={styles.title} > Paula Gil</h1>
