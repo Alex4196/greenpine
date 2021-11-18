@@ -57,7 +57,7 @@ const Footer = () => {
     <footer>
     <div className="Container">
     <div  className="footer-Info"> 
-            {/* <h1> ¡Seguinos en Instagram! </h1> */}
+           
            
             <a className="sns-Links" href="https://www.instagram.com/the.green.pine/" target="_blank" >
                             <i  className="fab fa-instagram instagram"  > </i>
@@ -71,23 +71,7 @@ const Footer = () => {
             
             </div>
             
-          
-             {/*  <div  className="footer-Sns" >
-                 <div className="design-By" >
-                 If you want to be in contact with me, these are my social networks!
-                 </div> 
-                  <h1></h1>
-                   <div className="sns-Links" >
-                     
-                     
-                      
-                      { <a href="https://wa.me/541150046437" target="_blank" >
-                            <i  className="fab fa-whatsapp whatsapp"  > </i>
-                       </a>
-                      }
-                   </div>
-                 
-              </div> */}
+     
     </div>
 
        

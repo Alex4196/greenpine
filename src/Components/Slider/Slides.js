@@ -39,7 +39,7 @@ const Slides = slidesInfo.map(slide => (
 
     <div className={styles.slideContainer} >
         <a href={slide.link} target="_blank" >
-        <img  src={slide.src}  alt={slide.alt} />
+        <img className={styles.img} src={slide.src}  alt={slide.alt} />
         </a>
    <div className={styles.slideDesc}  > 
    <span> {slide.desc} </span>

@@ -75,3 +75,150 @@
     position: absolute;
 
 }
+
+@media screen and (max-width: 500px){
+
+
+    
+.aboutContainer {
+    display: flex;
+    background-color: white;
+    color: black;
+     height: 70vh; 
+    padding: 100px 0 100px 0;
+    height:1500px;
+    border-top: 3px solid #070606;
+   /*  background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLWGlfQuXkTpGZLM2EAvgCbv0AJ7apk8XIv5o3G-BQ9de_Oa1L8XmGKZ6gXXGqcSyBC34bbEkuWEuUdhK79kgeojmCeX0dRR1P2G2Biol2qv2p-MX79jV3kB_cay394Qiu1aml_RTqwTGH7UAWYcNcud=w1920-h885-no?authuser=0"); */
+   background-image: url("https://images.unsplash.com/photo-1562241456-b6a8c9a6c45c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.815); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 2; */
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 1200px;
+  
+    
+   
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+
+    
+    .aboutContainer {
+        display: flex;
+        background-color: white;
+        color: black;
+         height: 70vh; 
+        padding: 100px 0 100px 0;
+        height:1500px;
+        border-top: 3px solid #070606;
+       /*  background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLWGlfQuXkTpGZLM2EAvgCbv0AJ7apk8XIv5o3G-BQ9de_Oa1L8XmGKZ6gXXGqcSyBC34bbEkuWEuUdhK79kgeojmCeX0dRR1P2G2Biol2qv2p-MX79jV3kB_cay394Qiu1aml_RTqwTGH7UAWYcNcud=w1920-h885-no?authuser=0"); */
+       background-image: url("https://images.unsplash.com/photo-1562241456-b6a8c9a6c45c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    
+    }
+    
+    .text {
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.815); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* z-index: 2; */
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin-top: 1200px;
+      
+        
+       
+      }
+    
+    }
+
+    @media screen and (max-width: 500px){
+
+
+    
+        .aboutContainer {
+            display: flex;
+            background-color: white;
+            color: black;
+             height: 70vh; 
+            padding: 100px 0 100px 0;
+            height:1500px;
+            border-top: 3px solid #070606;
+           /*  background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLWGlfQuXkTpGZLM2EAvgCbv0AJ7apk8XIv5o3G-BQ9de_Oa1L8XmGKZ6gXXGqcSyBC34bbEkuWEuUdhK79kgeojmCeX0dRR1P2G2Biol2qv2p-MX79jV3kB_cay394Qiu1aml_RTqwTGH7UAWYcNcud=w1920-h885-no?authuser=0"); */
+           background-image: url("https://images.unsplash.com/photo-1562241456-b6a8c9a6c45c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
+           display: flex;
+           flex-direction:column;
+           justify-content: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        
+        }
+        
+        .text {
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.815); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* z-index: 2; */
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            margin-top: 1200px;
+          
+            
+           
+          }
+        
+        }

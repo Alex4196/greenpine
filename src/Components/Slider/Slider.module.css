@@ -69,7 +69,7 @@ padding: 20px 0 20px 10px;
     border-color:  black !important;
 }
 
-@media only screen  and (max-width:960px) {
+@media screen and (max-width: 500px) {
     .carouselContainer {
         flex-direction: column;
     }
@@ -82,3 +82,53 @@ padding: 20px 0 20px 10px;
         width: 100%;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+  
+    .thefront{
+        position: absolute;
+        width:100%;
+        height: 150%;
+        backface-visibility: hidden;
+        background:rgba(250, 250, 250, 0.616);
+        color:rgb(0, 1, 2);
+      
+        
+        
+        
+    }
+    
+    .theback{
+        position: absolute;
+        width:100%;
+        height:180%;
+        backface-visibility: hidden;
+        background:rgba(250, 250, 250, 0.616);
+        color:rgb(12, 2, 1);
+        transform: rotateY(180deg);
+        margin-left: 10%;
+    }
+    
+    .comics{
+        color: rgb(1, 0, 8);
+        font-size: 125%;
+        font-family: "Architects Daughter";
+        padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position: absolute;
+    }
+
+  }
+
+  @media screen and (max-width: 500px){
+
+    .img{
+        width: 120%;
+    }
+    
+
+    
+    }

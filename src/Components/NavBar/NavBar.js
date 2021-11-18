@@ -10,6 +10,7 @@ const toTheTop = () => {
 
     return (
         <nav className={`${styles.navbar} ${isScrolling > 20 ? styles.scrolling: null}`}  >
+            <div className={styles.contenedor}>
             <div  onClick={() => window.scrollTo({top:700, behavior:"smooth"})} className={styles.navBarLogo} /* onClick={toTheTop} */>
                 Sobre nosotros
                 
@@ -23,6 +24,7 @@ const toTheTop = () => {
             </div>
             <div onClick={() => window.scrollTo({top:7000, behavior:"smooth"})} className={styles.navBarLogo} >
             ¡Contactanos!
+            </div>
             </div>
            
 
