@@ -43,7 +43,7 @@ useEffect(() => {
       <Info/>
        
       <Footer/> */}
-     <Nosotros/>
+    {/*  <Nosotros/> */}
      {/* <Historia/> */}
      <Slider/> 
      <Products/>
