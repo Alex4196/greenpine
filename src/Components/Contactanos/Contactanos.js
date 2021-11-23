@@ -71,10 +71,10 @@ const Footer = () => {
             
             </div>
             
-     
+            <p className="copy" > Copyright ©️ 2021 The Green Pine</p>
     </div>
 
-       
+   
     </footer>
   );
 };

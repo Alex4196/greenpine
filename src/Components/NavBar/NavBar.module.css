@@ -55,11 +55,12 @@
 
 @media screen and (max-width: 500px){
     .navBarLogo {
-        height: 80px;
-        line-height: 80px;
+        height: 30px;
+        line-height: 10px;
         color: white;
         cursor: pointer;
-        font-size: 70%;
+        font-size: 65%;
+        padding: 1rem;
     }
     .contenedor{
         margin-left: -20%;
